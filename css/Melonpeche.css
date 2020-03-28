@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+html {
+    font-family: 'Anton', sans-serif;
+    color: linen;
+    height: 100% ;
+}
+body{
+    background-image: url("../imgs/watermelon.jpg"), linear-gradient(to left top, #fdbb2d, #ffaa24, #ff9820, #ff8521, #ff7225,
+     #ec7e13, #d88702, #c58e00, #97a52c, #67b461, #34bd97, #22c1c3);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+ul{
+  font-size: 1.5vw;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited{
+  color: inherit;
+  }
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  font-size: 7.5vw;
+  text-align: center;
+}
+
+#part1, #part2, #part3  {
+  
+  text-align: center;
+  width: 50vw;
+  font-size: 3vw;
+}
+
+
+#important{
+  font-size: 1.5vw;
+}
+
+#thisone{
+    display: none;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black;
+
+}
+
+#thistwo {
+    display: none;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black;
+}
+
+#thisthree{
+    display: none;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black;
+
+}
+
+
+#important:hover #thisone{
+    display: block;
+
+}
+
+#important2:hover #thistwo {
+
+    display: block;
+
+}
+
+#important2:hover #poof{
+    display: none;
+}
+
+#important3:hover #thisthree{
+    display: block;
+
+}
+
+footer {
+  font-size: 1vw;
+  text-align: center;
+  padding: 20px;
+  padding-left: 55px;
+}
+
+button{
+  float: right;
+  background-color: inherit;
+  color: linen;
+  border: linen;
+  font-size: 3vw;
+}
+
+/****************************************************************/
+@media screen and (max-width: 1234px) {
+  h1 {
+    font-size: 8.5vw;
+  }
+  #part1, #part2, #part3 {
+      font-size: 5vw;
+  }
+
+  ul{
+    font-size: 2.5vw;
+    display: inline;
+    text-align: left;
+    padding-left: 0%;
+  }
+  button{
+    font-size: 6vw;
+  }
+}
+/****************************************************************/

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+html {
+    font-family: 'Anton', sans-serif;
+    color: linen;
+    height: 100% ;
+
+}
+body{
+    background-image: url("../imgs/strawberries.jpg"),
+    linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: exclusion;
+}
+
+ul{
+  font-size: 1.5vw;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: linen;
+}
+a:visited{
+  color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+h1 {
+  font-size: 7.5vw;
+  text-align: center;
+  
+}
+
+
+#part1, #part2, #part3  {
+  
+  text-align: center;
+  width: 50vw;
+  font-size: 3vw;
+}
+
+
+#important{
+  font-size: 1.5vw;
+}
+
+#thisthree{
+    display: none;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black;
+
+}
+
+#important3:hover #thisthree{
+    display: block;
+
+}
+
+footer {
+  font-size: 1vw;
+  text-align: center;
+  padding: 50px;
+}
+
+button{
+  float: right;
+  background-color: inherit;
+  color: linen;
+  border: linen;
+  font-size: 3vw;
+}
+
+/****************************************************************/
+@media screen and (max-width: 1234px) {
+  h1 {
+    font-size: 8.5vw;
+  }
+  #part1, #part2, #part3 {
+      font-size: 5vw;
+  }
+
+  ul{
+    font-size: 2.5vw;
+    display: inline;
+    text-align: left;
+    padding-left: 0%;
+  }
+
+  button{
+    font-size: 6vw;
+  }
+
+}
+/****************************************************************/

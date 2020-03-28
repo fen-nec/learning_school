@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+html {
+    font-family: 'Anton', sans-serif;
+    color: linen;
+    height: 100% ;
+}
+
+body{
+    
+    border: inset;
+    margin: -13px;
+    background-color: black;
+    border-image: url(../imgs/filmstrip.png) round;
+    border-image-slice: 19%;
+    border-image-width: 32px;
+}
+
+li{
+    padding-top: 5vh;
+}
+
+header{
+    color: #ffff00bf;
+    text-shadow: 0px 7px 5px orangered;
+    
+}
+
+ul{
+    font-size: 1.5vw;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited{
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#exclude {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 6vw;
+    text-align: center;
+    
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.projetzero {
+    background-image: url("../imgs/Melon.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 97vw;
+    height: 100vh;
+    box-shadow: inset 0px 0px 10px 20px black;
+}
+
+.projetun {
+    background-image: url(../imgs/Eau.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 97vw;
+    height: 100vh;
+    box-shadow: inset 0px 0px 10px 20px black;
+}
+.projetdeux {
+    background-image: url("../imgs/Tomato.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 97vw;
+    height: 100vh;
+    box-shadow: inset 0px 0px 10px 20px black;
+}
+.projettrois{
+    background-image: url("../imgs/Mango.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 97vw;
+    height: 100vh;
+    box-shadow: inset 0px 0px 10px 20px black;
+}
+.projetquatre{
+    background-image: url("../imgs/Fraises.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 97vw;
+    height: 100vh;
+    box-shadow: inset 0px 0px 10px 20px black;
+}
+
+@media screen and (max-width: 1234px) {
+    h1 {
+      font-size: 7.5vw;
+    }
+
+    .projetzero, .projetun, .projetdeux, .projettrois, .projetquatre{
+        background-size: contain;
+    }
+    li{
+        padding-top: 5vh;
+    }
+  }
+  
+  footer {
+    color: #ffff00bf;
+    text-shadow: 0px 7px 5px orangered;
+    font-size: 1vw;
+    text-align: center;
+    padding: 50px;
+  }

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+html {
+    font-family: 'Anton', sans-serif;
+    color: linen;
+    height: 100% ;
+    mix-blend-mode: difference;
+}
+body{
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    
+    text-align: left;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 4vw;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+ h1{
+   font-size: 7.5vw;
+   text-align: center;
+ }
+
+main{
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: black;
+  }
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  
+}
+
+footer {
+  font-size: 1vw;
+  text-align: center;
+  padding: 50px;
+}
+
+button{
+  float: right;
+  background-color: inherit;
+  color: linen;
+  border: linen;
+  font-size: 3vw;
+}
+  
+@media screen and (max-width: 1366px) {
+    h1 {
+      font-size: 10vw;
+      text-align: center;
+    }
+    a:link{
+        font-size: 6vw;
+    }
+    article{
+      font-size: 5vw;
+    }
+    footer{
+      font-size: 3vw;
+    }
+    button{
+      font-size: 6vw;
+    }
+  }
