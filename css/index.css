@@ -20,6 +20,7 @@ li{
     padding-top: 5vh;
 }
 
+
 header{
     color: #ffff00bf;
     text-shadow: 0px 7px 5px orangered;
@@ -27,9 +28,13 @@ header{
 }
 
 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     font-size: 1.5vw;
-    list-style: none;
-    text-decoration: none;
+    list-style: upper-roman;
+    text-decoration: overline underline;
     
 }
 
@@ -44,11 +49,6 @@ a:visited{
 
 a:hover{
     text-decoration: underline;
-}
-
-
-#exclude {
-    text-decoration: none;
 }
 
 h1 {
